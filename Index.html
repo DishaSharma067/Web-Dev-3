@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Disha Sharma — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo"><h1>Disha<span class="dot">.</span></h1></div>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <a class="social-link" href="https://www.linkedin.com/in/disha-sharma-55410b332" target="_blank" rel="noopener">LinkedIn</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="hero" class="hero section-hero reveal">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+
+          <!-- Name with animation -->
+          <h1 class="name">
+            Disha <span class="surname">Sharma</span>
+          </h1>
+
+          <h3 class="role"><span class="animated-role">Web Developer Student</span></h3>
+
+          <p class="intro">I design and build responsive web interfaces using semantic HTML, Python, modern CSS, and vanilla JavaScript. I focus on accessible, animated UI.</p>
+
+          <div class="spacer-lg"></div>
+
+          <div class="hero-ctas">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <!-- Gradient initials avatar (option D) -->
+        <div class="hero-avatar" aria-hidden="true">
+          <div class="initials-avatar">DS</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT (no image placeholder here) -->
+    <section id="about" class="about section-about reveal">
+      <div class="container">
+        <h2 class="section-title highlight-title about-title-animated">
+          <span class="icon-star">★</span> About Me
+        </h2>
+
+        <div class="about-content no-image">
+          <div class="about-text">
+            <div class="about-card fancy-card reveal-delay">
+              <h3>Who I Am</h3>
+              <p>Passionate Web Developer Student focused on accessible, responsive and animated UI. I create modern, engaging user interfaces using HTML, CSS and JavaScript.</p>
+            </div>
+
+            <div class="about-card fancy-card reveal-delay">
+              <h3>Education</h3>
+              <p>B.Tech CSE — currently building front-end projects to deepen practical skills in UI & animations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills section-skills reveal">
+      <div class="container">
+        <h2 class="section-title highlight-title"><span class="icon-star">★</span> My Skills</h2>
+
+        <div class="skills-wrapper">
+          <div class="skill-item skill-1 reveal-skill">
+            <div class="skill-icon html">HTML</div>
+            <p>Structure & Semantic Web</p>
+          </div>
+
+          <div class="skill-item skill-2 reveal-skill">
+            <div class="skill-icon css">CSS</div>
+            <p>Styling & Layout Design</p>
+          </div>
+
+          <div class="skill-item skill-3 reveal-skill">
+            <div class="skill-icon js">JS</div>
+            <p>Interactive UI Behavior</p>
+          </div>
+
+          <div class="skill-item skill-4 reveal-skill">
+            <div class="skill-icon tools">Tools</div>
+            <p>Git • VS Code • Figma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- PROJECTS -->
+<section id="projects" class="projects section-projects reveal">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+      <a class="project-card" href="#">
+        <div class="project-media">
+          <img src="images/project1.jpg" class="project-img" alt="Portfolio Website">
+        </div>
+        <div class="project-body">
+          <h4>Portfolio Website</h4>
+          <p>Responsive personal portfolio.</p>
+        </div>
+      </a>
+
+      <a class="project-card" href="#">
+        <div class="project-media">
+          <img src="images/project2.jpg" class="project-img" alt="Travel Website">
+        </div>
+        <div class="project-body">
+          <h4>Travel Website</h4>
+          <p>Travel landing page with UI animations.</p>
+        </div>
+      </a>
+
+      <a class="project-card" href="#">
+        <div class="project-media">
+          <img src="images/project3.jpg" class="project-img" alt="Food Blog">
+        </div>
+        <div class="project-body">
+          <h4>Food Blog Layout</h4>
+          <p>Healthy food recipes blog design.</p>
+        </div>
+        </a>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact section-contact reveal">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+
+        <form class="contact-form" action="#" method="post" novalidate>
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" placeholder="Message" rows="5"></textarea>
+          <div style="display:flex;gap:0.6rem;flex-wrap:wrap;margin-top:0.6rem">
+            <button class="btn primary" type="submit">Send Message</button>
+            <button class="btn ghost" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2025</span> Disha Sharma</p>
+      <!-- uploaded file reference (local) - will be converted to a URL by the environment if needed -->
+      <p style="font-size:0.85rem;color:#6b5f78;margin-top:.4rem;"></p>
+    </div>
+  </footer>
+
+  <!-- Go to Top button -->
+  <button id="goTopBtn" title="Go to Top">↑</button>
+
+  <!-- Scripts -->
+  <script>
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile nav toggle (safe no-op if not present)
+    document.querySelectorAll('.nav-toggle').forEach(btn=>{
+      btn.addEventListener('click',()=>document.querySelector('.main-nav').classList.toggle('open'));
+    });
+
+    // IntersectionObserver with stagger for about/skills/projects
+    const revealObserver = new IntersectionObserver((entries, obs)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          const el = entry.target;
+          el.classList.add('in-view');
+
+          // ABOUT stagger (no image)
+          if(el.id === 'about'){
+            const blocks = el.querySelectorAll('.about-card');
+            blocks.forEach((b,i)=> setTimeout(()=> b.classList.add('in-view'), i*220));
+          }
+
+          // SKILLS stagger
+          if(el.id === 'skills'){
+            el.querySelectorAll('.skill-item').forEach((it,i)=> setTimeout(()=> it.classList.add('in-view'), i*160));
+          }
+
+          // PROJECTS stagger
+          if(el.id === 'projects'){
+            el.querySelectorAll('.project-card').forEach((c,i)=> setTimeout(()=> c.classList.add('in-view'), i*180));
+          }
+
+          obs.unobserve(el);
+        }
+      });
+    }, { threshold: 0.18 });
+
+    document.querySelectorAll('section').forEach(s => revealObserver.observe(s));
+
+    // Go to top button
+    const topBtn = document.getElementById("goTopBtn");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 220) {
+        topBtn.style.opacity = "1";
+        topBtn.style.visibility = "visible";
+      } else {
+        topBtn.style.opacity = "0";
+        topBtn.style.visibility = "hidden";
+      }
+    });
+    topBtn.addEventListener("click", ()=> window.scrollTo({top:0, behavior:"smooth"}));
+  </script>
+</body>
+</html>
+  
+
+

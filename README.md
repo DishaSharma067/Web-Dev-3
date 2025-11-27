@@ -1,2 +1,12 @@
-# Web-Dev-3
- It includes a structured webpage built using HTML, CSS, and optional JavaScript. The purpose of this assignment is to practice:  Semantic HTML structure  External and internal CSS styling  Responsive design elements  Basic interactivity and layout principles  All files are organized and commented for clarity and enhancement.
+# Lab 3 — Responsive Personal Portfolio (Web Dev I)
+
+**Student:** Disha Sharma  
+**Title:** Web Developer Student
+
+## Overview
+This is a one-page responsive portfolio built for Lab 3 (Web Dev I). The project demonstrates use of:
+- Semantic HTML5 (Unit 1)
+- External CSS, Google Fonts, color theming (Unit 2)
+- Flexbox, CSS Grid, media queries, relative units, CSS transitions, transforms and keyframe animations (Unit 3)
+
+## Project Structure
